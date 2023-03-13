@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@ignite-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,12 +8,14 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
-    "lint": "eslint src/**/*.ts* --fix"
+    "lint": "eslint src --ext .tsx,.ts",
+    "lint:fix": "eslint src --ext .tsx,.ts --fix"
   },
   "keywords": [],
   "author": "Guilherme Spica Luiz",
   "license": "MIT",
   "devDependencies": {
+    "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
     "@ignite-ui/eslint-config": "*",
     "tsup": "^6.6.3",

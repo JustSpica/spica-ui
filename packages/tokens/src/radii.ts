@@ -1,4 +1,4 @@
-export const radii = {
+export const radii = <const>{
   px: '1px',
   xs: '4px',
   sm: '6px',
