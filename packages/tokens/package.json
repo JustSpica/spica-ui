@@ -1,0 +1,17 @@
+{
+  "name": "tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "author": "Guilherme Spica Luiz",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  }
+}
