@@ -18,7 +18,6 @@ var colors = {
 
 // src/space.ts
 var space = {
-  px: "1px",
   1: "0.25rem",
   2: "0.5rem",
   3: "0.75rem",
@@ -61,7 +60,7 @@ var fontSizes = {
   sm: "0.875rem",
   // 14px
   md: "1rem",
-  // 16px 
+  // 16px
   lg: "1.125rem",
   // 18px
   xl: "1.25rem",

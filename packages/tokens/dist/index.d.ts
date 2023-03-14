@@ -16,7 +16,6 @@ declare const colors: {
 };
 
 declare const space: {
-    readonly px: "1px";
     readonly 1: "0.25rem";
     readonly 2: "0.5rem";
     readonly 3: "0.75rem";
