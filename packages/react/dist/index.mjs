@@ -133,14 +133,10 @@ var {
 });
 
 // src/index.tsx
-import { jsx } from "react/jsx-runtime";
 var Button = styled("button", {
   fontFamily: "$code",
   backgroundColor: "$gray100"
 });
-function ButtonComponent() {
-  return /* @__PURE__ */ jsx(Button, { children: "Hello world" });
-}
 export {
-  ButtonComponent
+  Button
 };
