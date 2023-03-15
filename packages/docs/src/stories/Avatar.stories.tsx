@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/JustSpica.png',
     alt: 'Alternative Text',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Default: StoryObj<AvatarProps> = {}
