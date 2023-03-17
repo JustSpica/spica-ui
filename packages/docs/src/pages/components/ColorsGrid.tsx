@@ -1,5 +1,5 @@
 import { getContrast } from 'polished'
-import { colors } from '@ignite-ui/tokens'
+import { colors } from '@spica-ui/tokens'
 
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, color]) => {

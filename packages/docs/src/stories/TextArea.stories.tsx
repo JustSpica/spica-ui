@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { TextArea, TextAreaProps } from '@ignite-ui/react'
+import { TextArea, TextAreaProps } from '@spica-ui/react'
 
 export default {
   title: 'Form/Text Area',

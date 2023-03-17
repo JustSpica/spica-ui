@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite-ui/eslint-config",
+  "extends": "@spica-ui/eslint-config",
   "ignorePatterns": ["dist"]
 }

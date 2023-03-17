@@ -1,6 +1,6 @@
 import { FloppyDisk } from 'phosphor-react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button, ButtonProps } from '@ignite-ui/react'
+import { Button, ButtonProps } from '@spica-ui/react'
 
 export default {
   title: 'Form/Button',
