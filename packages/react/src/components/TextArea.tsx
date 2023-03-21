@@ -6,8 +6,8 @@ export interface TextAreaProps extends ComponentProps<typeof TextAreaStyled> {}
 export const TextArea = forwardRef<
   ElementRef<typeof TextAreaStyled>,
   TextAreaProps
->((props) => {
-  return <TextAreaStyled {...props} />
+>((props, ref) => {
+  return <TextAreaStyled ref={ref} {...props} />
 })
 
 TextArea.displayName = 'TextArea'

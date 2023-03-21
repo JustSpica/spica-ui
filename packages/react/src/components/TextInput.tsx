@@ -6,11 +6,11 @@ export interface TextInputProps extends ComponentProps<typeof Input> {
 }
 
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
-  ({ prefix, ...props }) => {
+  ({ prefix, ...props }, ref) => {
     return (
       <TextInputStyled>
         {!!prefix && <Prefix>{prefix}</Prefix>}
-        <Input {...props} />
+        <Input ref={ref} {...props} />
       </TextInputStyled>
     )
   },
