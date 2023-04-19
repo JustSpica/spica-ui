@@ -13,7 +13,7 @@ export const TextAreaStyled = styled('textarea', {
   color: '$white',
   boxSizing: 'border-box',
   resize: 'vertical',
-  transition: 'border-color 150ms ease-in',
+  transition: 'all 150ms ease-in',
 
   '&:focus': {
     borderColor: '$ignite300',

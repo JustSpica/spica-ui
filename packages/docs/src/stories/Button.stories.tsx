@@ -49,4 +49,11 @@ export const Icon: StoryObj<ButtonProps> = {
       </>
     ),
   },
+  argTypes: {
+    children: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 }
