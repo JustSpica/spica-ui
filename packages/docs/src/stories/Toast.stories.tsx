@@ -18,10 +18,8 @@ export default {
 export const Default: Story<ToastProps> = (args) => {
   const [, updateArgs] = useArgs()
 
-  console.log(Toast.displayName)
-
   return (
-    <ToastProvider swipeDirection="right">
+    <ToastProvider swipeDirection="right" duration={3000}>
       <Button
         variant="solid"
         size="md"
