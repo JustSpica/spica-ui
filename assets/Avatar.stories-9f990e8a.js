@@ -1,0 +1,2 @@
+import{A as t}from"./index-d8709170.js";import"./index-0ddbced7.js";import"./iframe-ba73602a.js";import"./index-c65c10c0.js";import"./jsx-runtime-322b5eb5.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/JustSpica.png",alt:"Alternative Text"},argTypes:{src:{control:{type:"text"}}}},c={},i={args:{src:void 0}},l=["Default","Fallback"];export{c as Default,i as Fallback,l as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories-9f990e8a.js.map
